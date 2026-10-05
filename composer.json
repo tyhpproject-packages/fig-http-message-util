@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/fig-http-message-util",
+    "description": "Tyhp type definitions for fig/http-message-util 1.1.5.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.1.5",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/fig-http-message-util-impl": "~1.1.5.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/fig-http-message-util-impl"
+        }
+    }
+}
